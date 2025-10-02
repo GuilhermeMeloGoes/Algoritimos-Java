@@ -1,4 +1,4 @@
-package br.com.guilherme.algoritimos.arrays;
+package br.com.guilherme.algoritimos.arrays.busca;
 
 import java.util.Scanner;
 
@@ -27,6 +27,7 @@ public class Arrays_BuscaLinear {
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] == numeroBusca) {
                 indicieBusca = i;
+                break;
             }
         }
 
