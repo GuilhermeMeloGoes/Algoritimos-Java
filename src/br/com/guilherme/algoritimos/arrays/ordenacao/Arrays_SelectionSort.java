@@ -29,6 +29,9 @@ public class Arrays_SelectionSort {
         imprimirArray(numeros); // Exibição dos valores do vetor 'numeros'
 
         // Inicio Selection Sort
+        // Melhor Caso: Caso o vetor ja esteja ordenado (n² vezes)
+        // Caso Médio: Caso o vetor esteja com a metade ordenada (n² vezes)
+        // Pior Caso: Caso o vetor esteja totalmente desordenado (n² vezes)
         for (int i = 0; i < numeros.length; i++) {
             int indicieDoMenor = i;
             for (int j = i + 1; j < numeros.length; j++) {

@@ -19,6 +19,9 @@ public class Arrays_BuscaLinear {
         }
 
         // Inicio Busca Linear
+        // Melhor Caso: Se o elemento estiver na primeira posição (1 vez)
+        // Caso Médio: Se o elemento estiver na metade do vetor (n/2 vezes)
+        // Pior Caso: Se o elemento estiver na ultima posição (n vezes)
         System.out.print("\nDigite o valor a ser buscado: ");
         int numeroBusca = sc.nextInt();
 

@@ -27,6 +27,8 @@ public class Arrays_BuscaBinaria {
         System.out.println();
 
         // Inicio Busca Binária
+        // Melhor Caso:
+        // Pior Caso:
         System.out.print("Digite o elemento que deseja buscar: ");
         int numeroBusca = sc.nextInt();
 
